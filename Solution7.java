@@ -48,6 +48,12 @@ import java.util.PriorityQueue;
  */
 
 public class Solution7 {
+    /**
+     * pull request:这段代码实现了一个字符串的最小字典序重组，利用并查集（Union-Find）来处理字符的交换关系。整体结构清晰，逻辑合理，但可以通过添加注释、优化代码和提高可读性来进一步改进。
+     * 虽然已有一些注释，但可以进一步详细说明每个步骤的目的和逻辑。
+     * 在 smallestStringWithSwaps 方法中，判断 pairs.size() 是否小于等于 1 的条件可以简化.
+     * 缺少对空字符串的处理。
+     */
 
     public String smallestStringWithSwaps(String s, List<List<Integer>> pairs) {
 
